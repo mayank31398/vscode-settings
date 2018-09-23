@@ -1,0 +1,120 @@
+{
+    "window.zoomLevel": -1,
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "vscode-icons",
+    "team.showWelcomeMessage": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "vsicons.dontShowNewVersionMessage": true,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "latex-workshop.message.update.show": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "explorer.confirmDragAndDrop": false,
+
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#000000",
+        "activityBar.border": "#111111",
+
+        "statusBar.background": "#000000",
+
+        "tab.activeBackground": "#000000",
+        "tab.inactiveBackground": "#000000",
+        "tab.border": "#000000",
+        "tab.activeBorder": "#00ff00",
+        "tab.hoverBorder": "#ff0000",
+
+        "editor.background": "#000000",
+        "editorLineNumber.activeForeground": "#ffffff",
+        "editorLineNumber.foreground": "#999999",
+
+        "scrollbar.shadow": "#000000",
+
+        "panelTitle.activeForeground": "#ffffff",
+        
+        "sideBar.background": "#000000",
+        "sideBar.border": "#111111",
+        },
+
+        "editor.tokenColorCustomizations": {
+            "textMateRules": [
+                {
+                    "scope": "comment",
+                    "settings": {
+                        "foreground": "#999999"
+                    }
+                },
+
+                {
+                    "scope": "keyword.control",
+                    "settings": {
+                        "foreground": "#ff00ff",
+                        "fontStyle": "italic"
+                    }
+                },
+
+                {
+                    "scope": [
+                        "keyword",
+                        "keyword.operator.arithmetic",
+                        "keyword.operator",
+                        "keyword.operator.assignment",
+                        "keyword.operator.logical",
+                        "keyword.operator.new",
+                        "keyword.other"
+                    ],
+                    "settings": {
+                        "foreground": "#ff00ff"
+                    }
+                },
+
+                {
+                    "scope": "string",
+                    "settings": {
+                        "foreground": "#d2691e"
+                    }
+                },
+
+                {
+                    "scope": [
+                        "constant.numeric",
+                        "constant.numeric.float",
+                        "constant.numeric.hex",
+                        "constant.numeric.integer",
+                        "constant.numeric.octal"
+                    ],
+                    "settings": {
+                        "foreground": "#ffffff"
+                    }
+                },
+                
+                {
+                    "scope": [
+                        "variable",
+                        "variable.name",
+                        "variable.other",
+                        "variable.parameter",
+                        "variable.language"
+                    ],
+                    "settings": {
+                        "foreground": "#00ff00"
+                    }
+                },
+
+                {
+                    "scope": [
+                        "entity.name.function",
+                        "entity.name.method"
+                    ],
+                    "settings": {
+                        "foreground": "#ffff00"
+                    }
+                },
+                
+                {
+                    "scope": "entity.name.type",
+                    "settings": {
+                        "foreground": "#00ffff"
+                    }
+                }
+            ]
+        }
+    }
