@@ -12,7 +12,9 @@
 
     "workbench.colorCustomizations": {
         "activityBar.background": "#000000",
-        "activityBar.border": "#111111",
+        "activityBar.border": "#000000",
+        "activityBar.inactiveForeground": "#777777",
+        "activityBar.foreground": "#00ff00",
 
         "statusBar.background": "#000000",
 
@@ -29,6 +31,8 @@
         "scrollbar.shadow": "#000000",
 
         "panelTitle.activeForeground": "#ffffff",
+        "panelTitle.activeBorder": "#00ff00",
+        "panelTitle.inactiveForeground": "#999999",
         
         "sideBar.background": "#000000",
         "sideBar.border": "#111111",
