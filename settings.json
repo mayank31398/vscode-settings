@@ -36,7 +36,12 @@
         "panelTitle.inactiveForeground": "#999999",
         
         "sideBar.background": "#000000",
-        "sideBar.border": "#111111",
+        "sideBar.border": "#000000",
+
+        "titleBar.activeBackground": "#000000",
+        "titleBar.activeForeground": "#FFFFFF",
+        "titleBar.inactiveForeground": "#999999",
+        "titleBar.border": "#000000"
     },
 
     "editor.tokenColorCustomizations":
@@ -134,5 +139,6 @@
                 }
             }
         ]
-    }
+    },
+    "files.autoSave": "afterDelay"
 }
