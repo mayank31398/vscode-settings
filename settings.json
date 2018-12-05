@@ -8,7 +8,10 @@
     "java.errors.incompleteClasspath.severity": "ignore",
     "latex-workshop.message.update.show": false,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": ["/K","D:\\Biohazard\\Programming\\command_line\\vendor\\init.bat"],
     "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
 
     "workbench.colorCustomizations":
     {
@@ -140,5 +143,6 @@
             }
         ]
     },
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "matlab-runner.matlabPath": "C:\\Program Files\\MATLAB\\R2017a\\bin"
 }
