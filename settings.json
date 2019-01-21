@@ -2,147 +2,149 @@
     "window.zoomLevel": -1,
     "explorer.confirmDelete": false,
     "workbench.iconTheme": "vscode-icons",
-    "team.showWelcomeMessage": false,
     "workbench.startupEditor": "newUntitledFile",
     "vsicons.dontShowNewVersionMessage": true,
-    "java.errors.incompleteClasspath.severity": "ignore",
     "latex-workshop.message.update.show": false,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-    "terminal.integrated.shellArgs.windows": ["/K","D:\\Biohazard\\Programming\\command_line\\vendor\\init.bat"],
     "explorer.confirmDragAndDrop": false,
+    "editor.wordWrap": "on",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/K",
+        "D:\\Biohazard\\Programming\\command_line\\vendor\\init.bat"
+    ],
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
-
-    "workbench.colorCustomizations":
-    {
+    "arduino.path": "C:\\Program Files (x86)\\Arduino",
+    "arduino.logLevel": "info",
+    "arduino.enableUSBDetection": true,
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "texify",
+            "tools": [
+                "texify"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "texify",
+            "command": "texify",
+            "args": [
+                "--synctex",
+                //   "--timeout 10",
+                "--pdf",
+                "--tex-option=\"-interaction=nonstopmode\"",
+                "--tex-option=\"-file-line-error\"",
+                "%DOC%.tex"
+            ]
+        }
+    ],
+    "workbench.colorCustomizations": {
         "activityBar.background": "#000000",
         "activityBar.border": "#000000",
         "activityBar.inactiveForeground": "#777777",
         "activityBar.foreground": "#00ff00",
-
         "statusBar.background": "#000000",
-
         "tab.activeBackground": "#000000",
         "tab.inactiveBackground": "#000000",
         "tab.border": "#000000",
         "tab.activeBorder": "#00ff00",
         "tab.hoverBorder": "#ff0000",
-
         "editor.background": "#000000",
         "editorLineNumber.activeForeground": "#ffffff",
         "editorLineNumber.foreground": "#999999",
-
         "scrollbar.shadow": "#000000",
-
         "panelTitle.activeForeground": "#ffffff",
         "panelTitle.activeBorder": "#00ff00",
         "panelTitle.inactiveForeground": "#999999",
-        
         "sideBar.background": "#000000",
         "sideBar.border": "#000000",
-
         "titleBar.activeBackground": "#000000",
         "titleBar.activeForeground": "#FFFFFF",
         "titleBar.inactiveForeground": "#999999",
         "titleBar.border": "#000000"
     },
-
-    "editor.tokenColorCustomizations":
-    {
-        "textMateRules":
-        [
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
             {
                 "scope": "comment",
-                "settings":
-                {
+                "settings": {
                     "foreground": "#999999"
                 }
             },
-
             {
                 "scope": "keyword.control",
-                "settings":
-                {
+                "settings": {
                     "foreground": "#ff00ff",
                     "fontStyle": "italic"
                 }
             },
-
-        {
-            "scope":
-            [
-                "keyword",
-                "keyword.operator.arithmetic",
-                "keyword.operator",
-                "keyword.operator.assignment",
-                "keyword.operator.logical",
-                "keyword.operator.new",
-                "keyword.other"
-            ],
-            "settings":
             {
-                "foreground": "#ff00ff"
-            }
-        },
-
-        {
-            "scope": "string",
-            "settings": {
-                "foreground": "#d2691e"
-            }
-        },
-
-        {
-            "scope":
-            [
-                "constant.numeric",
-                "constant.numeric.float",
-                "constant.numeric.hex",
-                "constant.numeric.integer",
-                "constant.numeric.octal"
-            ],
-            "settings":
+                "scope": [
+                    "keyword",
+                    "keyword.operator.arithmetic",
+                    "keyword.operator",
+                    "keyword.operator.assignment",
+                    "keyword.operator.logical",
+                    "keyword.operator.new",
+                    "keyword.other"
+                ],
+                "settings": {
+                    "foreground": "#ff00ff"
+                }
+            },
             {
-                "foreground": "#ffffff"
-            }
-        },
-            
+                "scope": "string",
+                "settings": {
+                    "foreground": "#d2691e"
+                }
+            },
             {
-                "scope":
-                [
+                "scope": [
+                    "constant.numeric",
+                    "constant.numeric.float",
+                    "constant.numeric.hex",
+                    "constant.numeric.integer",
+                    "constant.numeric.octal"
+                ],
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": [
                     "variable",
                     "variable.name",
                     "variable.other",
                     "variable.parameter",
                     "variable.language"
                 ],
-                "settings":
-                {
+                "settings": {
                     "foreground": "#00ff00"
                 }
             },
-
             {
-                "scope":
-                [
+                "scope": [
                     "entity.name.function",
                     "entity.name.method"
                 ],
-                "settings":
-                {
+                "settings": {
                     "foreground": "#ffff00"
                 }
             },
-            
             {
                 "scope": "entity.name.type",
-                "settings":
-                {
+                "settings": {
                     "foreground": "#00ffff"
                 }
             }
         ]
     },
     "files.autoSave": "afterDelay",
-    "matlab-runner.matlabPath": "C:\\Program Files\\MATLAB\\R2017a\\bin"
+    "gitlens.advanced.messages": {
+        "suppressFileNotUnderSourceControlWarning": true
+    },
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "latex-workshop.view.pdf.viewer": "tab"
 }
