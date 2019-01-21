@@ -32,7 +32,7 @@
             "command": "texify",
             "args": [
                 "--synctex",
-                //   "--timeout 10",
+                "--timeout 10",
                 "--pdf",
                 "--tex-option=\"-interaction=nonstopmode\"",
                 "--tex-option=\"-file-line-error\"",
