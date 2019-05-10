@@ -1,45 +1,17 @@
 {
     "window.zoomLevel": -1,
     "explorer.confirmDelete": false,
-    "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "newUntitledFile",
-    "vsicons.dontShowNewVersionMessage": true,
-    "latex-workshop.message.update.show": false,
     "explorer.confirmDragAndDrop": false,
     "editor.wordWrap": "on",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-    "terminal.integrated.shellArgs.windows": [
-        "/K",
-        "D:\\Biohazard\\Programming\\command_line\\vendor\\init.bat"
-    ],
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.cursorBlinking": true,
-    "arduino.path": "C:\\Program Files (x86)\\Arduino",
-    "arduino.logLevel": "info",
-    "arduino.enableUSBDetection": true,
-    "C_Cpp.intelliSenseEngine": "Tag Parser",
-    "latex-workshop.latex.recipes": [
-        {
-            "name": "texify",
-            "tools": [
-                "texify"
-            ]
-        }
-    ],
-    "latex-workshop.latex.tools": [
-        {
-            "name": "texify",
-            "command": "texify",
-            "args": [
-                "--synctex",
-                "--timeout 10",
-                "--pdf",
-                "--tex-option=\"-interaction=nonstopmode\"",
-                "--tex-option=\"-file-line-error\"",
-                "%DOC%.tex"
-            ]
-        }
-    ],
+    "files.autoSave": "afterDelay",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+    // Theme
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    // "editor.fontFamily": "Fira Code, monospace",
+    "editor.fontLigatures": false,
     "workbench.colorCustomizations": {
         "activityBar.background": "#000000",
         "activityBar.border": "#000000",
@@ -61,7 +33,7 @@
         "sideBar.background": "#000000",
         "sideBar.border": "#000000",
         "titleBar.activeBackground": "#000000",
-        "titleBar.activeForeground": "#FFFFFF",
+        "titleBar.activeForeground": "#ffffff",
         "titleBar.inactiveForeground": "#999999",
         "titleBar.border": "#000000"
     },
@@ -70,7 +42,7 @@
             {
                 "scope": "comment",
                 "settings": {
-                    "foreground": "#999999"
+                    "foreground": "#ff0000"
                 }
             },
             {
@@ -141,10 +113,88 @@
             }
         ]
     },
-    "files.autoSave": "afterDelay",
+    
+    // Git
     "gitlens.advanced.messages": {
-        "suppressFileNotUnderSourceControlWarning": true
+        "suppressFileNotUnderSourceControlWarning": true,
+        "suppressLineUncommittedWarning": true
     },
+
+    // Java
     "java.errors.incompleteClasspath.severity": "ignore",
-    "latex-workshop.view.pdf.viewer": "tab"
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+
+    // Terminal
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/K",
+        "D:\\Biohazard\\Cmder\\vendor\\init.bat"
+    ],
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+
+    // Arduino
+    "arduino.path": "C:\\Program Files (x86)\\Arduino",
+    "arduino.logLevel": "info",
+    "arduino.enableUSBDetection": true,
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+
+    // Latex
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.message.update.show": false,
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "texify",
+            "tools": [
+                "texify"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "texify",
+            "command": "texify",
+            "args": [
+                "--synctex",
+                // "--timeout 10",
+                "--pdf",
+                "--tex-option=\"-interaction=nonstopmode\"",
+                "--tex-option=\"-file-line-error\"",
+                "%DOC%.tex"
+            ]
+        }
+    ],
+
+    // IITD HPC
+    "sshfs.configs": [
+        {
+            "name": "HPC",
+            "label": "HPC",
+            "root": "~/scratch",
+            "host": "10.113.30.7",
+            "port": 22,
+            "username": "ee3160506",
+            "password": true
+        }
+    ],
+    "python.jediEnabled": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.iconTheme": "vscode-icons",
+    
+    // TODO extension
+    "todo-tree.customHighlight": {
+        "TODO": {
+            "icon": "check",
+            "type": "line",
+            "background": "#ffffff",
+            "iconColour": ""
+        },
+        "FIXME": {
+            "icon": "check",
+            "type": "line",
+            "background": "#ffffff",
+            "iconColour": "yellow"
+        }
+    },
+    "diffEditor.ignoreTrimWhitespace": false
 }
