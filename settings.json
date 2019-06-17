@@ -178,23 +178,28 @@
         }
     ],
     "python.jediEnabled": false,
-    "vsicons.dontShowNewVersionMessage": true,
-    "workbench.iconTheme": "vscode-icons",
     
-    // TODO
-    "todo-tree.customHighlight": {
-        "TODO": {
-            "icon": "check",
-            "type": "line",
-            "background": "#ffffff",
-            "iconColour": ""
-        },
-        "FIXME": {
-            "icon": "check",
-            "type": "line",
-            "background": "#ffffff",
-            "iconColour": "yellow"
-        }
-    },
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.iconTheme": "vscode-icons",
+    "liveServer.settings.donotShowInfoMsg": true,
+    
+    // // todo-tree extension
+    // "todo-tree.tags": [
+    //     "TODO",
+    //     "FIXME"
+    // ],
+    // "todo-tree.customHighlight": {
+    //     "TODO": {
+    //         "icon": "check",
+    //         "type": "line",
+    //         "background": "#ffffff",
+    //         "iconColour": ""
+    //     },
+    //     "FIXME": {
+    //         "icon": "check",
+    //         "type": "line",
+    //         "background": "#ffffff",
+    //         "iconColour": "yellow",
+    //     }
+    // },
 }
