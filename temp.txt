@@ -1,0 +1,205 @@
+{
+    "window.zoomLevel": -1,
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDragAndDrop": false,
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+    // Theme
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    // "editor.fontFamily": "Fira Code, monospace",
+    "editor.fontLigatures": false,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#000000",
+        "activityBar.border": "#000000",
+        "activityBar.inactiveForeground": "#777777",
+        "activityBar.foreground": "#00ff00",
+        "statusBar.background": "#000000",
+        "tab.activeBackground": "#000000",
+        "tab.inactiveBackground": "#000000",
+        "tab.border": "#000000",
+        "tab.activeBorder": "#00ff00",
+        "tab.hoverBorder": "#ff0000",
+        "editor.background": "#000000",
+        "editorLineNumber.activeForeground": "#ffffff",
+        "editorLineNumber.foreground": "#999999",
+        "scrollbar.shadow": "#000000",
+        "panelTitle.activeForeground": "#ffffff",
+        "panelTitle.activeBorder": "#00ff00",
+        "panelTitle.inactiveForeground": "#999999",
+        "sideBar.background": "#000000",
+        "sideBar.border": "#000000",
+        "titleBar.activeBackground": "#000000",
+        "titleBar.activeForeground": "#ffffff",
+        "titleBar.inactiveForeground": "#999999",
+        "titleBar.border": "#000000"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#ff0000"
+                }
+            },
+            {
+                "scope": "keyword.control",
+                "settings": {
+                    "foreground": "#ff00ff",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "keyword",
+                    "keyword.operator.arithmetic",
+                    "keyword.operator",
+                    "keyword.operator.assignment",
+                    "keyword.operator.logical",
+                    "keyword.operator.new",
+                    "keyword.other"
+                ],
+                "settings": {
+                    "foreground": "#ff00ff"
+                }
+            },
+            {
+                "scope": "string",
+                "settings": {
+                    "foreground": "#d2691e"
+                }
+            },
+            {
+                "scope": [
+                    "constant.numeric",
+                    "constant.numeric.float",
+                    "constant.numeric.hex",
+                    "constant.numeric.integer",
+                    "constant.numeric.octal"
+                ],
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": [
+                    "variable",
+                    "variable.name",
+                    "variable.other",
+                    "variable.parameter",
+                    "variable.language"
+                ],
+                "settings": {
+                    "foreground": "#00ff00"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function",
+                    "entity.name.method"
+                ],
+                "settings": {
+                    "foreground": "#ffff00"
+                }
+            },
+            {
+                "scope": "entity.name.type",
+                "settings": {
+                    "foreground": "#00ffff"
+                }
+            }
+        ]
+    },
+    
+    // Git
+    "gitlens.advanced.messages": {
+        "suppressFileNotUnderSourceControlWarning": true,
+        "suppressLineUncommittedWarning": true
+    },
+
+    // Java
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+
+    // Terminal
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/K",
+        "D:\\Biohazard\\Cmder\\vendor\\init.bat"
+    ],
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+
+    // Arduino
+    "arduino.path": "C:\\Program Files (x86)\\Arduino",
+    "arduino.logLevel": "info",
+    "arduino.enableUSBDetection": true,
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+
+    // Latex
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.message.update.show": false,
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "texify",
+            "tools": [
+                "texify"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "texify",
+            "command": "texify",
+            "args": [
+                "--synctex",
+                // "--timeout 10",
+                "--pdf",
+                "--tex-option=\"-interaction=nonstopmode\"",
+                "--tex-option=\"-file-line-error\"",
+                "%DOC%.tex"
+            ]
+        }
+    ],
+
+    // IITD HPC
+    "sshfs.configs": [
+        {
+            "name": "HPC",
+            "label": "HPC",
+            "root": "~/scratch",
+            "host": "10.113.30.7",
+            "port": 22,
+            "username": "ee3160506",
+            "password": true
+        }
+    ],
+    "python.jediEnabled": false,
+    
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.iconTheme": "vscode-icons",
+    "liveServer.settings.donotShowInfoMsg": true,
+    
+    // // todo-tree extension
+    // "todo-tree.tags": [
+    //     "TODO",
+    //     "FIXME"
+    // ],
+    // "todo-tree.customHighlight": {
+    //     "TODO": {
+    //         "icon": "check",
+    //         "type": "line",
+    //         "background": "#ffffff",
+    //         "iconColour": ""
+    //     },
+    //     "FIXME": {
+    //         "icon": "check",
+    //         "type": "line",
+    //         "background": "#ffffff",
+    //         "iconColour": "yellow",
+    //     }
+    // },
+}
