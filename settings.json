@@ -1,4 +1,7 @@
 {
+    // =========================================================================
+    // Themes, visuals & other editor settings
+    // =========================================================================
     "window.zoomLevel": -1,
     "explorer.confirmDelete": false,
     "workbench.startupEditor": "newUntitledFile",
@@ -7,8 +10,8 @@
     "files.autoSave": "afterDelay",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-
-    // Theme
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.iconTheme": "vscode-icons",
     "editor.fontFamily": "Consolas, 'Courier New', monospace",
     // "editor.fontFamily": "Fira Code, monospace",
     "editor.fontLigatures": false,
@@ -113,18 +116,18 @@
             }
         ]
     },
-    
-    // Git
-    "gitlens.advanced.messages": {
-        "suppressFileNotUnderSourceControlWarning": true,
-        "suppressLineUncommittedWarning": true
-    },
-
+    // =========================================================================
     // Java
+    // =========================================================================
     "java.errors.incompleteClasspath.severity": "ignore",
+    // =========================================================================
+    // Python
+    // =========================================================================
     "python.dataScience.sendSelectionToInteractiveWindow": true,
-
-    // Terminal
+    "python.jediEnabled": false,
+    // =========================================================================
+    // Terminal settings
+    // =========================================================================
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     "terminal.integrated.shellArgs.windows": [
         "/K",
@@ -132,14 +135,16 @@
     ],
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
-
+    // =========================================================================
     // Arduino
+    // =========================================================================
     "arduino.path": "C:\\Program Files (x86)\\Arduino",
     "arduino.logLevel": "info",
     "arduino.enableUSBDetection": true,
     "C_Cpp.intelliSenseEngine": "Tag Parser",
-
+    // =========================================================================
     // Latex
+    // =========================================================================
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.message.update.show": false,
     "latex-workshop.latex.recipes": [
@@ -164,8 +169,9 @@
             ]
         }
     ],
-
-    // IITD HPC
+    // =========================================================================
+    // IITD HPC SSH
+    // =========================================================================
     "sshfs.configs": [
         {
             "name": "HPC",
@@ -177,29 +183,16 @@
             "password": true
         }
     ],
-    "python.jediEnabled": false,
-    
-    "diffEditor.ignoreTrimWhitespace": false,
-    "workbench.iconTheme": "vscode-icons",
+    // =========================================================================
+    // Live server
+    // =========================================================================
     "liveServer.settings.donotShowInfoMsg": true,
-    
-    // // todo-tree extension
-    // "todo-tree.tags": [
-    //     "TODO",
-    //     "FIXME"
-    // ],
-    // "todo-tree.customHighlight": {
-    //     "TODO": {
-    //         "icon": "check",
-    //         "type": "line",
-    //         "background": "#ffffff",
-    //         "iconColour": ""
-    //     },
-    //     "FIXME": {
-    //         "icon": "check",
-    //         "type": "line",
-    //         "background": "#ffffff",
-    //         "iconColour": "yellow",
-    //     }
-    // },
+    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+    // =========================================================================
+    // Gitlens
+    // =========================================================================
+    "gitlens.advanced.messages": {
+        "suppressFileNotUnderSourceControlWarning": true,
+        "suppressLineUncommittedWarning": true
+    },
 }
