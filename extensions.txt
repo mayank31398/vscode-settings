@@ -1,0 +1,40 @@
+Anaconda Extension Pack
+Arduino
+bibtexLanguage
+C/C++
+C#
+CMake
+Comment Anchors
+Debugger for Java
+DotENV
+Excel Viewer
+GitLens-Git supercharged
+HTML CSS Support
+Intellisense for CSS class names in HTML
+Java Debug
+Java Extension Pack
+Java Test Runner
+Language Support for Java(TM) by Red Hat
+LaTeX Workshop
+Live Server
+Markdown Preview Github Styling
+Matlab
+Matlab Runner
+Maven for Java
+MIPS Support
+Python
+Python Preview
+Qiksit-Snippets
+Rainbow CSV
+Section DIvider
+Shader languages support for VS Code
+SSH FS
+SVG
+SVG Viewer
+Verilog HDL/SystemVerilog
+Visual Studio Intellicode
+VS Code Jupyter Notebook Previewer
+vscode-cudacpp
+vscode-icons
+x86 and x86_64 Assembly
+YAML
