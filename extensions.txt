@@ -17,7 +17,7 @@ Java Test Runner
 Language Support for Java(TM) by Red Hat
 LaTeX Workshop
 Live Server
-Markdown Preview Github Styling
+Markdown All in One
 Matlab
 Matlab Runner
 Maven for Java
