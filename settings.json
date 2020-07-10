@@ -45,7 +45,7 @@
             {
                 "scope": "comment",
                 "settings": {
-                    "foreground": "#ff0000"
+                    "foreground": "#999999"
                 }
             },
             {
@@ -129,10 +129,10 @@
     // Terminal settings
     // =========================================================================
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-    "terminal.integrated.shellArgs.windows": [
-        "/K",
-        "D:\\Biohazard\\Cmder\\vendor\\init.bat"
-    ],
+    // "terminal.integrated.shellArgs.windows": [
+    //     "/K",
+    //     "D:\\Biohazard\\Cmder\\vendor\\init.bat"
+    // ],
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
     // =========================================================================
@@ -170,20 +170,6 @@
         }
     ],
     // =========================================================================
-    // IITD HPC SSH
-    // =========================================================================
-    "sshfs.configs": [
-        {
-            "name": "HPC",
-            "label": "HPC",
-            "root": "~/scratch",
-            "host": "10.113.30.7",
-            "port": 22,
-            "username": "ee3160506",
-            "password": true
-        }
-    ],
-    // =========================================================================
     // Live server
     // =========================================================================
     "liveServer.settings.donotShowInfoMsg": true,
@@ -195,4 +181,39 @@
         "suppressFileNotUnderSourceControlWarning": true,
         "suppressLineUncommittedWarning": true
     },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "gitlens.views.repositories.files.layout": "list",
+    "editor.minimap.enabled": true,
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "none",
+    "breadcrumbs.enabled": true,
+    // // =========================================================================
+    // // SSH
+    // // =========================================================================
+    // "sshfs.configs": [
+    //     {
+    //         "name": "HPC",
+    //         "label": "HPC",
+    //         "root": "~/scratch",
+    //         "host": "10.113.30.7",
+    //         "port": 22,
+    //         "username": "ee3160506",
+    //         "password": true
+    //     },
+    //     {
+    //         "name": "Prathosh",
+    //         "label": "Prathosh",
+    //         "root": "~/scratch",
+    //         "host": "10.235.12.82",
+    //         "port": 22,
+    //         "username": "mayank",
+    //         "password": true
+    //     },
+    // ],
+    "vsicons.dontShowNewVersionMessage": true,
+    "java.semanticHighlighting.enabled": true,
+    "java.requirements.JDK11Warning": false
 }
