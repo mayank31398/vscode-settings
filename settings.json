@@ -12,6 +12,7 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
     "editor.fontFamily": "Consolas, 'Courier New', monospace",
     // "editor.fontFamily": "Fira Code, monospace",
     "editor.fontLigatures": false,
@@ -120,6 +121,8 @@
     // Java
     // =========================================================================
     "java.errors.incompleteClasspath.severity": "ignore",
+    "java.semanticHighlighting.enabled": true,
+    "java.requirements.JDK11Warning": false,
     // =========================================================================
     // Python
     // =========================================================================
@@ -212,8 +215,5 @@
     //         "username": "mayank",
     //         "password": true
     //     },
-    // ],
-    "vsicons.dontShowNewVersionMessage": true,
-    "java.semanticHighlighting.enabled": true,
-    "java.requirements.JDK11Warning": false
+    // ]
 }
