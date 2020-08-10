@@ -192,7 +192,7 @@
     "editor.minimap.enabled": true,
     "editor.renderControlCharacters": false,
     "editor.renderWhitespace": "none",
-    "breadcrumbs.enabled": true,
+    "breadcrumbs.enabled": true
     // // =========================================================================
     // // SSH
     // // =========================================================================
