@@ -192,7 +192,10 @@
     "editor.minimap.enabled": true,
     "editor.renderControlCharacters": false,
     "editor.renderWhitespace": "none",
-    "breadcrumbs.enabled": true
+    "breadcrumbs.enabled": true,
+    "python.languageServer": "Microsoft",
+    "python.dataScience.alwaysTrustNotebooks": true,
+    "python.dataScience.askForKernelRestart": false,
     // // =========================================================================
     // // SSH
     // // =========================================================================
