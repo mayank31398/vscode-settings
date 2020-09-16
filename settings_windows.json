@@ -15,6 +15,9 @@
     "vsicons.dontShowNewVersionMessage": true,
     "editor.fontFamily": "Consolas, 'Courier New', monospace",
     // "editor.fontFamily": "Fira Code, monospace",
+    "editor.minimap.enabled": true,
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "none",
     "editor.fontLigatures": false,
     "workbench.colorCustomizations": {
         "activityBar.background": "#000000",
@@ -189,31 +192,5 @@
     },
     "liveServer.settings.donotVerifyTags": true,
     "gitlens.views.repositories.files.layout": "list",
-    "editor.minimap.enabled": true,
-    "editor.renderControlCharacters": false,
-    "editor.renderWhitespace": "none",
     "breadcrumbs.enabled": true
-    // // =========================================================================
-    // // SSH
-    // // =========================================================================
-    // "sshfs.configs": [
-    //     {
-    //         "name": "HPC",
-    //         "label": "HPC",
-    //         "root": "~/scratch",
-    //         "host": "10.113.30.7",
-    //         "port": 22,
-    //         "username": "ee3160506",
-    //         "password": true
-    //     },
-    //     {
-    //         "name": "Prathosh",
-    //         "label": "Prathosh",
-    //         "root": "~/scratch",
-    //         "host": "10.235.12.82",
-    //         "port": 22,
-    //         "username": "mayank",
-    //         "password": true
-    //     },
-    // ]
 }
