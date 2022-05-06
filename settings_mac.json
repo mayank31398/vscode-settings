@@ -1,7 +1,4 @@
 {
-    // =========================================================================
-    // Themes, visuals & other editor settings
-    // =========================================================================
     "explorer.confirmDelete": false,
     "workbench.startupEditor": "newUntitledFile",
     "explorer.confirmDragAndDrop": false,
@@ -17,6 +14,7 @@
     "editor.minimap.enabled": true,
     "editor.renderControlCharacters": false,
     "editor.renderWhitespace": "none",
+    "editor.bracketPairColorization.enabled": true,
     "workbench.colorCustomizations": {
         "activityBar.background": "#000000",
         "activityBar.border": "#000000",
@@ -40,7 +38,14 @@
         "titleBar.activeBackground": "#000000",
         "titleBar.activeForeground": "#ffffff",
         "titleBar.inactiveForeground": "#999999",
-        "titleBar.border": "#000000"
+        "titleBar.border": "#000000",
+        "editorBracketHighlight.foreground1": "#d74177",
+        "editorBracketHighlight.foreground2": "#38adae",
+        "editorBracketHighlight.foreground3": "#c172d9",
+        "editorBracketHighlight.foreground4": "#fca5f1",
+        "editorBracketHighlight.foreground5": "#97c26c",
+        "editorBracketHighlight.foreground6": "#00b7ff",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -98,7 +103,7 @@
                     "variable.language"
                 ],
                 "settings": {
-                    "foreground": "#dddddd"
+                    "foreground": "#00ff00"
                 }
             },
             {
@@ -118,14 +123,8 @@
             }
         ]
     },
-    // =========================================================================
-    // Java
-    // =========================================================================
     "java.errors.incompleteClasspath.severity": "ignore",
     "java.semanticHighlighting.enabled": true,
-    // =========================================================================
-    // Terminal settings
-    // =========================================================================
     "terminal.integrated.defaultProfile.osx": "zsh",
     "terminal.integrated.profiles.osx": {
         "bash": {
@@ -160,11 +159,9 @@
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
     "terminal.external.osxExec": "iTerm.app",
-    // =========================================================================
-    // Gitlens
-    // =========================================================================
     "gitlens.advanced.messages": {
         "suppressFileNotUnderSourceControlWarning": true,
+        "suppressGitMissingWarning": true,
         "suppressGitVersionWarning": true,
         "suppressLineUncommittedWarning": true
     },
@@ -189,5 +186,10 @@
     "jupyter.askForKernelRestart": false,
     "python.pythonPath": "/opt/anaconda3/envs/ai/bin/python",
     "python.defaultInterpreterPath": "/opt/anaconda3/envs/ai/bin/python",
-    "files.maxMemoryForLargeFilesMB": 8192
+    "files.maxMemoryForLargeFilesMB": 8192,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "diffEditor.maxComputationTime": 0,
+    "editor.inlineSuggest.enabled": true
 }
