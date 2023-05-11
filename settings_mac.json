@@ -3,13 +3,12 @@
     "workbench.startupEditor": "newUntitledFile",
     "explorer.confirmDragAndDrop": false,
     "editor.wordWrap": "on",
-    "files.autoSave": "afterDelay",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.iconTheme": "vscode-icons",
     "vsicons.dontShowNewVersionMessage": true,
-    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Hack Nerd Font",
     "editor.fontLigatures": false,
     "editor.minimap.enabled": true,
     "editor.renderControlCharacters": false,
@@ -26,6 +25,7 @@
         "tab.border": "#000000",
         "tab.activeBorder": "#00ff00",
         "tab.hoverBorder": "#ff0000",
+        "panel.background": "#000000",
         "editor.background": "#000000",
         "editorLineNumber.activeForeground": "#ffffff",
         "editorLineNumber.foreground": "#999999",
@@ -33,6 +33,8 @@
         "panelTitle.activeForeground": "#ffffff",
         "panelTitle.activeBorder": "#00ff00",
         "panelTitle.inactiveForeground": "#999999",
+        "sideBarSectionHeader.background": "#000000",
+        "sideBarSectionHeader.border": "#333333",
         "sideBar.background": "#000000",
         "sideBar.border": "#000000",
         "titleBar.activeBackground": "#000000",
@@ -45,7 +47,10 @@
         "editorBracketHighlight.foreground4": "#fca5f1",
         "editorBracketHighlight.foreground5": "#97c26c",
         "editorBracketHighlight.foreground6": "#00b7ff",
-        "editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
+        "terminal.background": "#000000",
+        "terminal.tab.activeBorder": "#00ff00",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#db6165",
+        "editorCursor.foreground": "#ff0000"
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -123,42 +128,20 @@
             }
         ]
     },
-    "java.errors.incompleteClasspath.severity": "ignore",
-    "java.semanticHighlighting.enabled": true,
     "terminal.integrated.defaultProfile.osx": "zsh",
     "terminal.integrated.profiles.osx": {
-        "bash": {
-            "path": "bash",
-            "args": [
-                "-l"
-            ],
-            "icon": "terminal-bash"
-        },
         "zsh": {
             "path": "/bin/zsh",
             "args": [
                 "-l"
             ]
-        },
-        "fish": {
-            "path": "fish",
-            "args": [
-                "-l"
-            ]
-        },
-        "tmux": {
-            "path": "tmux",
-            "icon": "terminal-tmux"
-        },
-        "pwsh": {
-            "path": "pwsh",
-            "icon": "terminal-powershell"
         }
     },
-    "terminal.integrated.fontFamily": "Fira Mono for Powerline",
+    // "terminal.integrated.fontFamily": "Fira Mono for Powerline",
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
-    "terminal.external.osxExec": "iTerm.app",
+    "terminal.external.osxExec": "Warp.app",
     "gitlens.advanced.messages": {
         "suppressFileNotUnderSourceControlWarning": true,
         "suppressGitMissingWarning": true,
@@ -172,24 +155,69 @@
     "breadcrumbs.enabled": true,
     "git.ignoreLegacyWarning": true,
     "security.workspace.trust.untrustedFiles": "open",
-    "sshfs.configs": [
-        {
-            "name": "ccc",
-            "host": "cccxl013.pok.ibm.com",
-            "root": "/dccstor/mayankgpfs/scratch",
-            "username": "mayank98",
-            "privateKeyPath": "/Users/mayankmishra/.ssh/id_rsa"
-        }
-    ],
-    "jupyter.sendSelectionToInteractiveWindow": true,
-    "jupyter.alwaysTrustNotebooks": true,
     "jupyter.askForKernelRestart": false,
-    "python.pythonPath": "/opt/anaconda3/envs/ai/bin/python",
     "python.defaultInterpreterPath": "/opt/anaconda3/envs/ai/bin/python",
     "files.maxMemoryForLargeFilesMB": 8192,
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "diffEditor.maxComputationTime": 0,
-    "editor.inlineSuggest.enabled": true
+    "editor.inlineSuggest.enabled": true,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+    "liveServer.settings.donotShowInfoMsg": true,
+    // "rewrap.autoWrap.enabled": true,
+    // "python.sortImports.args": [
+    //     // "-m", "GRID",
+    //     // "--sl"
+    //     "--ensure-newline-before-comments",
+    //     "--use-parentheses",
+    //     "--force-grid-wrap", "0",
+    //     // "--include-trailing-comma",
+    //     "--line-length", "119",
+    //     "--lines-after-imports", "2",
+    //     // "--multi-line-output", "3",
+    // ],
+    "editor.largeFileOptimizations": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "gitlens.rebaseEditor.ordering": "asc",
+    "files.autoSave": "afterDelay",
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "git.confirmSync": false,
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ]
 }
