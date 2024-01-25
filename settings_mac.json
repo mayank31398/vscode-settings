@@ -5,7 +5,6 @@
     "editor.wordWrap": "on",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "diffEditor.ignoreTrimWhitespace": false,
     "workbench.iconTheme": "vscode-icons",
     "vsicons.dontShowNewVersionMessage": true,
     "editor.fontFamily": "Hack Nerd Font",
@@ -50,7 +49,16 @@
         "terminal.background": "#000000",
         "terminal.tab.activeBorder": "#00ff00",
         "editorBracketHighlight.unexpectedBracket.foreground": "#db6165",
-        "editorCursor.foreground": "#ff0000"
+        "editorCursor.foreground": "#ff0000",
+
+        // Background color for lines that got inserted/removed. 
+        // The color must not be opaque so as not to hide underlying decorations.
+        "diffEditor.insertedLineBackground": "#00ff0022",
+        "diffEditor.removedLineBackground": "#ff000033",
+        "diffEditorGutter.insertedLineBackground": "#00ff0022",
+        "diffEditorGutter.removedLineBackground": "#ff000033",
+        "diffEditorOverview.insertedForeground": "#00ff00AA",
+        "diffEditorOverview.removedForeground": "#ff0000AA",
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -58,6 +66,13 @@
                 "scope": "comment",
                 "settings": {
                     "foreground": "#666666"
+                }
+            },
+            {
+                "scope": "string.quoted.docstring",
+                "settings": {
+                    "foreground": "#cc77ff",
+                    "fontStyle": "italic"
                 }
             },
             {
@@ -84,7 +99,7 @@
             {
                 "scope": "string",
                 "settings": {
-                    "foreground": "#d2691e"
+                    "foreground": "#ff7f50"
                 }
             },
             {
@@ -139,6 +154,7 @@
     },
     // "terminal.integrated.fontFamily": "Fira Mono for Powerline",
     "terminal.integrated.fontFamily": "Hack Nerd Font",
+    // "terminal.integrated.fontFamily": "Consolas",
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
     "terminal.external.osxExec": "Warp.app",
@@ -157,7 +173,6 @@
     "security.workspace.trust.untrustedFiles": "open",
     "jupyter.askForKernelRestart": false,
     "python.defaultInterpreterPath": "/opt/anaconda3/envs/ai/bin/python",
-    "files.maxMemoryForLargeFilesMB": 8192,
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -219,5 +234,22 @@
         "!Select sequence",
         "!Split",
         "!Split sequence"
-    ]
+    ],
+    "isort.args": [
+        "ensure_newline_before_comments=True",
+        "force_grid_wrap=0",
+        "include_trailing_comma=True",
+        "lines_after_imports=2",
+        "multi_line_output=3",
+        "use_parentheses=True",
+        "profile=black"
+    ],
+    "cmake.configureOnOpen": true,
+    "workbench.editorAssociations": {
+        "git-rebase-todo": "gitlens.rebase"
+    },
+    "CodeGPT.apiKey": "Ollama",
+    "CodeGPT.model": "mixtral-8x7b-fw-chat",
+    "CodeGPT.Autocomplete.provider": "Ollama - codellama",
+    "diffEditor.ignoreTrimWhitespace": false
 }
